@@ -1,4 +1,4 @@
-NAME=python_doc
+NAME=document
 
 # rst2html options ############################################################
 
