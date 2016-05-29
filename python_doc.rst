@@ -21,21 +21,21 @@ Présentation des outils les plus utilisées
 .. Include options:
 .. http://docutils.sourceforge.net/docs/ref/rst/directives.html#include
 
-.. include:: introduction.rst
+.. include:: content/introduction.rst
 
-.. include:: docstrings.rst
+.. include:: content/docstrings.rst
 
-.. include:: pydoc.rst
+.. include:: content/pydoc.rst
 
-.. include:: epydoc.rst
+.. include:: content/epydoc.rst
 
-.. include:: restructuredtext.rst
+.. include:: content/restructuredtext.rst
 
-.. include:: sphinx.rst
+.. include:: content/sphinx.rst
 
-.. include:: readthedocs.rst
+.. include:: content/readthedocs.rst
 
-.. include:: inspiration.rst
+.. include:: content/inspiration.rst
 
-.. include:: refs.rst
+.. include:: content/refs.rst
 
