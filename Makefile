@@ -1,21 +1,4 @@
-NAME=python-docs-fr
-
-# rst2html options ############################################################
-
-# See man rst2html for more information
-
-TITLE="Documenter un projet Python"
-
-#LANGUAGE=en
-LANGUAGE=fr
-
-MATH_OUTPUT="MathJax"
-
-SOURCE_URL="https://github.com/jdhp-docs/python-documentation"
-
-HTML_STYLESHEET="style/html/rst2html.css"
-
-HTML_TMP_DIR="html_tmp"
+include meta.make
 
 ###############################################################################
 
@@ -23,7 +6,7 @@ all: $(NAME).html $(NAME).pdf
 
 .PHONY : all html pdf odt pdf-latex slides jdhp publish clean init
 
-SRCFILES=document.rst Makefile
+SRCFILES=main.rst Makefile
 
 ## ARTICLE ####################################################################
 
@@ -36,29 +19,29 @@ $(NAME).html: $(SRCFILES)
 		--language=$(LANGUAGE) --tab-width=4 --math-output=$(MATH_OUTPUT) \
 		--source-url=$(SOURCE_URL) --stylesheet=$(HTML_STYLESHEET) \
 		--section-numbering --embed-stylesheet --strip-comments \
-		document.rst $@
+		main.rst $@
 
 # PDF #############
 
 pdf: $(NAME).pdf
 
 $(NAME).pdf: $(SRCFILES)
-	rst2pdf --language=$(LANGUAGE) --repeat-table-rows -o $@ document.rst
+	rst2pdf --language=$(LANGUAGE) --repeat-table-rows -o $@ main.rst
 
 # ODT #############
 
 odt: $(NAME).odt
 
 $(NAME).odt: $(SRCFILES)
-	rst2odt document.rst $@
+	rst2odt main.rst $@
 
 # PDF Latex #######
 
 pdf-latex: $(NAME).latex.pdf
 
 $(NAME).latex.pdf: $(SRCFILES)
-	#pandoc --toc -N  -V papersize:"a4paper" -V geometry:"top=2cm, bottom=3cm, left=2cm, right=2cm" -V "fontsize:12pt" -o $@ document.rst
-	pandoc --toc -N  -V papersize:"a4paper" -V "fontsize:12pt" -o $@ document.rst
+	#pandoc --toc -N  -V papersize:"a4paper" -V geometry:"top=2cm, bottom=3cm, left=2cm, right=2cm" -V "fontsize:12pt" -o $@ main.rst
+	pandoc --toc -N  -V papersize:"a4paper" -V "fontsize:12pt" -o $@ main.rst
 
 ## SLIDES #####################################################################
 
@@ -68,7 +51,7 @@ $(NAME)_slides.html: $(SRCFILES)
 	rst2s5 --title=$(TITLE) --date --time --generator \
 		--language=$(LANGUAGE) --tab-width=4 --math-output=$(MATH_OUTPUT) \
 		--source-url=$(SOURCE_URL) \
-		document.rst $@
+		main.rst $@
 
 ## JDHP #######################################################################
 
