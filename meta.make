@@ -1,4 +1,4 @@
-NAME=python-docs-fr
+FILE_BASE_NAME=python_docs_fr
 
 # rst2html options ############################################################
 
