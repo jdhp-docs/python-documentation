@@ -308,15 +308,13 @@ Il semble y avoir 2 principaux styles éprouvés:
 Napoleon is a Sphinx extension
 ------------------------------
 
-Numpy et Google utilisent un style éprouvé différent de celui recommandé par sphinx:
+Numpy et Google (entre autre) utilisent `Napoleon`, un style éprouvé différent
+de celui recommandé par sphinx:
 
 - http://sphinxcontrib-napoleon.readthedocs.org/
 - http://sphinx-doc.org/ext/napoleon.html#module-sphinx.ext.napoleon
 - http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_numpy.html
 - http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html#example-google
-
-    Napoleon is a Sphinx extension that enables Sphinx to parse both NumPy and
-    Google style docstrings - the style recommended by Khan Academy.
 
     Napoleon is a pre-processor that parses NumPy and Google style docstrings
     and converts them to reStructuredText before Sphinx attempts to parse them.
@@ -325,12 +323,7 @@ Numpy et Google utilisent un style éprouvé différent de celui recommandé par
     code files.
     (http://sphinxcontrib-napoleon.readthedocs.org)
 
-Odt2sphinx
-----------
-
-https://pypi.python.org/pypi/odt2sphinx/ (http://sphinx-doc.org/intro.html#conversion-from-other-systems)
-
-Themes
+Thèmes
 ------
 
 http://docs.writethedocs.org/tools/sphinx-themes/
@@ -367,7 +360,8 @@ Thèmes disponibles sur Debian 8 (nom des paquets):
 Extensions disponibles sur Debian 8
 -----------------------------------
 
-Nom des paquets:
+Plusieurs paquets fournissent des extensions à Sphinx sur Debian 8, voici leur
+nom:
 
 - python3-sphinxcontrib.actdiag
 - python3-sphinxcontrib.blockdiag
@@ -375,4 +369,9 @@ Nom des paquets:
 - python3-sphinxcontrib.programoutput
 - python3-sphinxcontrib.seqdiag
 - python3-sphinxcontrib.youtube
+
+Odt2sphinx
+----------
+
+https://pypi.python.org/pypi/odt2sphinx/ (http://sphinx-doc.org/intro.html#conversion-from-other-systems)
 
