@@ -1,35 +1,27 @@
+.. _`restructuredtext`:
+
 reStructuredText
 ================
 
 Présentation
 ------------
 
-http://docutils.sourceforge.net/rst.html
+ReStructuredText est un `langage de balisage léger`_
+utilisé pour ajouter la possibilité de mise en forme avancée aux docstrings
+(italique, gras, listes, tableaux, images, ...).
+Depuis la PEP287_ ("reStructuredText Docstring Format")
+c'est devenu un standard pour la rédaction des docstrings Python.
 
-- un `langage de balisage léger`_
-- utilisé pour ajouter la possibilité de mise en forme avancée aux docstrings
-  (italique, gras, listes, tableaux, images, ...)
-  depuis la PEP287_ "reStructuredText Docstring Format"
-- mais aussi utilisé pour documenter plus largement les projets Python (ie hors
-  API), ex: le site web de Python, Matplotlib, Scikit-Learn, ...
+Ce langage est aussi utilisé pour documenter plus largement les projets Python
+(c'est à dire au delà de l'API).
+On peut l'utiser en dehors des docstrings et écrire des documents complets en
+reStructuredText (fichiers .rst).
+Par exemple, il est utilisé pour écrire le site web des projets Python,
+Matplotlib, Scikit-Learn, etc.
 
-  - pas seulement utilisé pour les docstrings, on peut aussi écrire des
-    documents en reStructuredText (fichiers .rst)
+ReStructuredText est l'équivalant d'un autre
+`langage de balisage léger <https://fr.wikipedia.org/wiki/Langage_de_balisage_l%C3%A9ger>`_
+très populaire: `Markdown <https://fr.wikipedia.org/wiki/Markdown>`_.
 
-- équivalant de Markdown
-- reStructuredText est le langage standard utilisé dans la documentation Python
-  
-Docutils
---------
 
-- outils distribués avec Python pour convertir les fichiers reStructuredText en
-  HTML, LaTeX, ...
-- les "docutils" sont les outils de référence pour convertir des documents
-  reStructuredText mais il en existe d'autres développés par des tiers (Pandoc,
-  rst2pdf, etc.)
-
-Pandoc
-------
-
-http://pandoc.org/
-
+Pour plus d'information, voir http://docutils.sourceforge.net/rst.html.

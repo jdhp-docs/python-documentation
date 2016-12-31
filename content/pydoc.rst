@@ -1,5 +1,7 @@
+.. _`pydoc`:
+
 PyDoc
-=====
+-----
 
 Remplacé depuis longtemps par les docutils...
 

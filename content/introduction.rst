@@ -1,7 +1,7 @@
 Introduction
 ============
 
-En quoi c'est important de documenter, blablabla...
-
-http://write-the-docs.readthedocs.org/
+Si vous vous demendez en quoi c'est important de documenter un projet, je vous
+conseille le lien suivant (en anglais):
+http://write-the-docs.readthedocs.io/guide/writing/beginners-guide-to-docs/#why-write-docs.
 

@@ -1,5 +1,7 @@
+.. _`sphinx`:
+
 Sphinx
-======
+------
 
 http://sphinx-doc.org/
 
@@ -10,15 +12,17 @@ http://sphinx-doc.org/
     (http://sphinx-doc.org/intro.html#prerequisites)
 
 Premiers pas
-------------
+~~~~~~~~~~~~
 
 Générer la doc::
 
     mkdir docs
     sphinx-quickstart
 
+.. _`autodoc`:
+
 Autodoc
--------
+~~~~~~~
 
 - http://sphinx-doc.org/tutorial.html#autodoc
 - http://sphinx-doc.org/ext/autodoc.html
@@ -304,9 +308,10 @@ Il semble y avoir 2 principaux styles éprouvés:
 - un style alternatif semble rencontrer un certain succès aussi: celui de Numpy
   et Google (cf. section "Napoleon" ci-dessous).
 
+.. _`napoleon`:
 
 Napoleon is a Sphinx extension
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Numpy et Google (entre autre) utilisent `Napoleon`, un style éprouvé différent
 de celui recommandé par sphinx:
@@ -324,7 +329,7 @@ de celui recommandé par sphinx:
     (http://sphinxcontrib-napoleon.readthedocs.org)
 
 Thèmes
-------
+~~~~~~
 
 http://docs.writethedocs.org/tools/sphinx-themes/
 
@@ -358,7 +363,7 @@ Thèmes disponibles sur Debian 8 (nom des paquets):
 - python-oslosphinx
 
 Extensions disponibles sur Debian 8
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Plusieurs paquets fournissent des extensions à Sphinx sur Debian 8, voici leur
 nom:
@@ -371,7 +376,7 @@ nom:
 - python3-sphinxcontrib.youtube
 
 Odt2sphinx
-----------
+~~~~~~~~~~
 
 https://pypi.python.org/pypi/odt2sphinx/ (http://sphinx-doc.org/intro.html#conversion-from-other-systems)
 

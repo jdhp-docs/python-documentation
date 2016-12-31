@@ -1,5 +1,7 @@
+.. _`epydoc`:
+
 Epydoc
-======
+------
 
 http://epydoc.sourceforge.net/
 
@@ -8,7 +10,8 @@ documentation de l'API contrairement a sphinx.
 
 Epydoc semble mort depuis plusieurs années, la dernière version (et la dernière
 news) date de janvier 2008...
-La dernière version d'epydoc ne serait plus compatible avec les dernières versions de docutils...
+La dernière version d'epydoc ne serait plus compatible avec les dernières
+versions de docutils...
 Je ne sais pas si il marche avec Python 3.
 
 La communauté Python semble avoir largement abandonné epydoc au profit de sphinx:

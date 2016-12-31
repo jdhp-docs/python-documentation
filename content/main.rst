@@ -19,17 +19,16 @@
 
 .. include:: docstrings.rst
 
-.. include:: pydoc.rst
-
-.. include:: epydoc.rst
-
 .. include:: restructuredtext.rst
 
-.. include:: sphinx.rst
+.. include:: outils.rst
 
-.. include:: readthedocs.rst
+.. include:: services.rst
 
 .. include:: inspiration.rst
 
-.. include:: refs.rst
+.. include:: glossaire.rst
 
+.. include:: todo.rst
+
+.. include:: refs.rst
