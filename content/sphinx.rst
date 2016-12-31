@@ -51,7 +51,13 @@ valeur de retour, etc (contrairement à javadoc par exemple).
 Le mieux est alors de s'inspirer de ce qui ce fait de mieux...
 
 Styles de docstring:
-- Pillow (ex: https://github.com/python-pillow/Pillow/blob/master/PIL/Image.py) et PIP (https://github.com/pypa/pip/blob/develop/pip/index.py), simple et élégant::
+
+Pillow
+''''''
+
+(ex: https://github.com/python-pillow/Pillow/blob/master/PIL/Image.py) et PIP (https://github.com/pypa/pip/blob/develop/pip/index.py), simple et élégant
+  
+.. code:: python
 
     def getmodebandnames(mode):
         """
@@ -68,7 +74,12 @@ Styles de docstring:
         return ImageMode.getmode(mode).bands
 
 
-- Matplotlib (ex: https://github.com/matplotlib/matplotlib/blob/master/lib/matplotlib/animation.py)::
+Matplotlib
+''''''''''
+
+(ex: https://github.com/matplotlib/matplotlib/blob/master/lib/matplotlib/animation.py)
+
+.. code:: python
 
     def __init__(self, fps=5, codec=None, bitrate=None, extra_args=None, metadata=None):
         '''
@@ -95,7 +106,12 @@ Styles de docstring:
             title, artist, genre, subject, copyright, srcform, comment.
         '''
 
-- Mayavi (ex: https://github.com/enthought/mayavi/blob/master/mayavi/core/engine.py)::
+Mayavi
+''''''
+  
+(ex: https://github.com/enthought/mayavi/blob/master/mayavi/core/engine.py)
+
+.. code:: python
 
     def add_scene(self, scene, name=None):
         """Add given `scene` (a `pyface.tvtk.scene.Scene` instance) to
@@ -118,7 +134,12 @@ Styles de docstring:
           is not possible it defaults to 'Mayavi Scene'.
         """
 
-- Scipy (ex: https://github.com/scipy/scipy/blob/master/scipy/linalg/decomp_cholesky.py)::
+Scipy
+'''''
+
+(ex: https://github.com/scipy/scipy/blob/master/scipy/linalg/decomp_cholesky.py)
+
+.. code:: python
 
     def cholesky(a, lower=False, overwrite_a=False, check_finite=True):
         """
@@ -164,7 +185,12 @@ Styles de docstring:
 
         """
 
-- http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_numpy.html::
+Numpy
+'''''
+
+http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_numpy.html
+
+.. code:: python
 
     def module_level_function(param1, param2=None, *args, **kwargs):
     """This is an example of a module level function.
@@ -236,7 +262,9 @@ Styles de docstring:
         raise ValueError('param1 may not be equal to param2')
     return True
 
-- Numpy (ex: https://github.com/numpy/numpy/blob/master/numpy/core/numeric.py)::
+(ex: https://github.com/numpy/numpy/blob/master/numpy/core/numeric.py)
+
+.. code:: python
 
     def full_like(a, fill_value, dtype=None, order='K', subok=True):
         """
