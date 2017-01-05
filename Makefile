@@ -21,9 +21,6 @@ $(SUBDIRS):
 
 # OPEN IN WEB BROWSER #########################################################
 
-# TODO: follow the full setup procedure (with NodeJS) described there
-#       https://github.com/hakimel/reveal.js/#full-setup
-
 # Inspired by https://git.kernel.org/cgit/git/git.git/tree/config.mak.uname
 # See also http://stackoverflow.com/questions/3466166/
 
